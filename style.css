@@ -1,0 +1,63 @@
+body,html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    background-color: rgb(243, 133, 190);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    border-style: solid;
+    border-color:purple;
+    background-color: rgb(230, 144, 233);
+    border-radius: 20px;
+    text-align: center;
+    padding: 45px 85px;
+    transition: transform 0.4s;
+}
+.box:hover{
+    transform: scale(1.02);
+}
+h2{
+    font-size: 40px;
+}
+input{
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px;
+    border-color: rgb(198, 13, 244);
+    border-width: 2.5px;
+    width: 300px;
+    height: 38px;
+    color: rgb(15, 3, 21);
+    background-color: rgb(245, 191, 233);
+    transition: transform 0.4s;
+}
+input:hover{
+    transform: scale(1.02);
+    background-color: rgb(255, 215, 246);
+    color: rgb(223, 11, 191);
+}
+button{
+    color: rgb(84, 8, 116);
+    background-color: rgb(230, 180, 228);
+    font-size: xx-large;
+    border-radius: 20px;
+    border-width: 2.5px;
+    border-color: rgb(98, 4, 250);
+    height: 55px;
+    width: 55px;
+    margin: 2.5px;   /* for fiving some gap between buttons */
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+button:hover{
+    transform: scale(1.05);
+    background-color: rgb(245, 175, 144);
+    border-color: rgb(255, 115, 84);
+
+}
